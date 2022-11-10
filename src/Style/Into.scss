@@ -1,0 +1,25 @@
+.into {
+    height: calc(100% - 50px);
+    // background-color: rgb(255, 0, 0);
+    position: relative;
+
+    video {
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    
+    
+    
+}
+
+.into::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    // background-color: rgba(102, 51, 153, 0.377);
+    z-index: 5;
+}

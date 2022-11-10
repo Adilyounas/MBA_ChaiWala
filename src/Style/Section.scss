@@ -1,0 +1,54 @@
+@import "color";
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.section {
+    padding-top: 13rem;
+    margin-top: -10px;
+
+
+    >div {
+        max-width: 48rem;
+        height: calc(125vh );
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        margin: auto;
+    }
+
+    h3 {
+        width: 80%;
+        font: 300 54px $heading ;
+    }
+
+    p {
+        font: 19px $text;
+        line-height: 1.9;
+    }
+
+    button{
+        font: 600 14px $text;
+        padding: 0.9rem 1.25rem;
+        // margin-top: 10px;
+        border: none;
+        transform-origin: bottom;
+        transition: transform .5s;
+        letter-spacing: 2px;
+        outline: none;
+        border-radius: 7px;
+
+        &:hover{
+            transform: skewX(-10deg);
+        }
+
+        
+    }
+
+
+
+}
