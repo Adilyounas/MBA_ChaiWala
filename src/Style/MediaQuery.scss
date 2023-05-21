@@ -38,30 +38,6 @@
 
 
 
-    footer {
-        padding: 13rem 0;
-        grid-template-columns: 1fr;
-
-        h1 {
-            font-size: 40px;
-            text-align: center;
-
-        }
-
-        aside {
-            align-items: center;
-
-        }
-
-        div {
-            padding: 2rem;
-            align-items: center;
-
-            &:last-of-type {
-                align-items: center;
-            }
-        }
-    }
 }
 
 
